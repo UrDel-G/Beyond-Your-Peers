@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+}
+
+.back{
+  border:none;
+  border-radius: 50%;
+  text-align: left;
+  width: 45px;
+  height: 45px;
+}
+
+.header-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: grey;
+  padding: 10px;
+  border: 2px solid darkblue;
+  border-radius: 18px;
+}
+
+.byp-img{
+  background-image: url("file_00000000be0882119f08a5aa51e9e5e8.png");
+  background-size: cover;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 50px;
+}
+
+.artdiv1{
+  padding: 15px;
+  background-color: #0A1F2E;
+  box-shadow: rgb(135, 206, 250);
+  border: 4px solid darkblue;
+  border-radius: 25px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+p{
+  color: grey;
+}
+
+h2{
+  font-weight: bold;
+  font-family: georgia;
+  text-decoration: underline;
+  color: white;
+}
+
+span{
+  color: white;  
+}
+
+h3{
+  font-weight: bold;
+  font-family: georgia;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+}
+
+dt{
+  text-align: left;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+dl{
+  color: grey;
+  text-align: left;
+}
+
+ul li::marker {
+  color: #188CF2; /* your very dark blue */
+  
+}

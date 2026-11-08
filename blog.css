@@ -1,0 +1,161 @@
+body{
+  background-color: rgba(173, 216, 255, 0.35);
+  box-shadow: rgb(135, 206, 250);
+}
+
+.header-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: grey;
+  padding: 10px;
+  border: 2px solid darkblue;
+  border-radius: 18px;
+}
+
+.byp-img{
+  background-image: url("file_00000000be0882119f08a5aa51e9e5e8.png");
+  background-size: cover;
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 50px;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  background: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.hamburger-img{
+  border: none;
+  background: none;
+}
+
+.hamburger-img img{
+  width: 30px; height: 30px;
+}
+
+.bingo{
+  text-align: right;
+  background-color: black;
+}
+
+.exit-btn img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.exit-btn {
+  border: none;
+  background: none;
+  margin-top: 100px;
+  margin-right: 20px;
+  padding: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.a-links{
+  display: block;
+  margin: 5px auto;
+  background-color: black;
+  color: white;
+  border: 3px solid blue;
+  border-radius: 16px;
+  padding: 14px;
+  width: 80%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.byp-logo{
+  width: 30px; height: 30px;
+}
+
+.comment-section {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.comment-input {
+    width: 80%;
+    height: 30px;
+    padding: 12px;
+    resize: vertical;
+    border-radius: 18px;
+}
+
+.comment-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+.comment {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.author img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info p {
+    margin: 0;
+}
+
+.author-name {
+    font-size: 25px;
+    color: black;
+}
+
+.author-details {
+    font-size: 20px;
+    margin-top: 10px !important;
+    color: black;
+}
+
+p{
+  color: gray;
+}
+
+h3{
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+h2{
+  font-weight: bold;
+  font-family: Georgia;
+  text-decoration: underline;
+}
